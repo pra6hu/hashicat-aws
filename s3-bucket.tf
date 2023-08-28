@@ -1,7 +1,7 @@
 module "s3_bucket" {
   source = "terraform-aws-modules/s3-bucket/aws"
 
-  bucket_prefix = prefix
+  bucket_prefix = "prabhu"
   version = "2.8.0"
   acl    = "private"
 
